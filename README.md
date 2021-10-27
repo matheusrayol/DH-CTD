@@ -1,2 +1,2 @@
 # DH-CTD
-Repositório com materiais de aula e exercícios do CTD - Certified Tech Developer.
+Repositório para coleta de materiais, exemplos e exercícios do CTD - Certified Tech Developer
