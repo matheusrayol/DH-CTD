@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    background-color: #131313;
+}
+
+h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    color: steelblue;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    color: #bdbdbd;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: yellow;
+    font-family: 'Roboto', sans-serif;
+}
+
+.media-picture {
+    width: 100%;
+    height: 400px;
+    background-image: url('https://sm.ign.com/ign_br/news/m/marvels-av/marvels-avengers-is-coming-to-xbox-game-pass_6zbu.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.review-score {
+    color: black;
+    background-color: #09e665;
+    padding: 12px;
+    font-family: 'Roboto', sans-serif;
+}
