@@ -54,7 +54,7 @@ console.log('Quadrado do número 5: ' + quadradoDoNumero(5));
 function mediaDeTresNumeros(numero1, numero2, numero3) {
     let conjunto1 = adicionar(numero1, numero2);
     let conjunto2 = adicionar(conjunto1, numero3);
-    return edividir(conjunto2, 3);
+    return dividir(conjunto2, 3);
     // Forma anterior
     // return (adicionar(numero1, numero2) + subtrair(numero2, numero3) + multiplicar(numero1, numero3)) / 3;
     // }
