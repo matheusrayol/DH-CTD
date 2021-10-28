@@ -55,10 +55,6 @@ function mediaDeTresNumeros(numero1, numero2, numero3) {
     let conjunto1 = adicionar(numero1, numero2);
     let conjunto2 = adicionar(conjunto1, numero3);
     return dividir(conjunto2, 3);
-    // Forma anterior
-    // return (adicionar(numero1, numero2) + subtrair(numero2, numero3) + multiplicar(numero1, numero3)) / 3;
-    // }
-    // console.log('A média entre ' + adicionar(25, 48) + ', ' + subtrair(48, 19) + ' e ' + multiplicar(25, 19) + ' é ' + mediaDeTresNumeros(25, 48, 19));
 }
 console.log('A média entre 33, 44 e 55 é: ' + mediaDeTresNumeros(33, 44, 55));
 
