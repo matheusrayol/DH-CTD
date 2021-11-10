@@ -33,6 +33,10 @@ h2 {
     margin-bottom: 10px;
 }
 
+iframe {
+    border: 0;
+}
+
 /* classes */
 .curiosidades {
     background-color: rgba(255, 255, 255, 0.65);
@@ -90,7 +94,7 @@ h2 {
 #container-curiosidades {
     text-align: center;
     width: 1200px;
-    height: 420px;
+    height: 600px;
     margin: 0px auto;
     padding: 40px;
     background-color: rgba(255, 255, 255, 0.65);
@@ -125,6 +129,21 @@ h2 {
     position: relative;
     left: 880px;
     top: -1040px;
+}
+
+#cur6 {
+    position: relative;
+    width: 1110px;
+    top: -1020px;
+}
+
+#inner-cur6 {
+    background-color: rgba(255, 255, 255, 0.65);
+    padding: 40px;
+    margin: 10px 15px;
+    border-radius: 10px;
+    font-size: 14px;
+    text-align: left;
 }
 
 #footer-container {
