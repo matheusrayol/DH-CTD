@@ -37,10 +37,6 @@ function microondas(comida, tempo) {
     }
 
     // Realiza os cálculos verificando o tempo padrão e as condições
-    
-    
-    
-    
     if (selecao != "" && tempoDefault != "") {
         // 1. Se o tempo for menor que o tempoDefault, exibe a mensagem "Tempo insuficiente."  
         if (tempo < tempoDefault) {
