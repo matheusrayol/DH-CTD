@@ -64,7 +64,8 @@ h2 {
 }
 
 #main-container {
-    padding: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     width: 100%;
 }
 
@@ -82,7 +83,7 @@ h2 {
 
 
 #video-bh {
-    margin: 20px;
+    margin: 40px;
     text-align: center;
 }
 
@@ -90,7 +91,7 @@ h2 {
     text-align: center;
     width: 1200px;
     height: 420px;
-    margin: 40px auto;
+    margin: 0px auto;
     padding: 40px;
     background-color: rgba(255, 255, 255, 0.65);
     border-radius: 10px;
@@ -127,7 +128,6 @@ h2 {
 }
 
 #footer-container {
-    margin-top: 40px;
     padding: 40px;
     text-align: center;
     background-color: rgb(8, 8, 8);
