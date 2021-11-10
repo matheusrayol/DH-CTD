@@ -9,7 +9,7 @@ function microondas(comida, tempo) {
     let selecao = "";
     let tempoDefault = "";
 
-    // Define o valor das variáveis para execução dos cálculos e a saída para o console.
+    // Define o valor das variáveis para execução dos cálculos para a saída correta no console
     switch (comida) {
         case 1:
             selecao = "Pipoca";
@@ -36,25 +36,39 @@ function microondas(comida, tempo) {
                                 break;
     }
 
-    // Realiza os cálculos verificando o tempo padrão e as condições:
-    // 1. Se o tempo for menor que o padrão, exibe a mensagem "Tempo insuficiente."  
-    // 2. Se o tempo for maior que o padrão, mas menor que o dobro, exibe "Prato pronto, bom apetite!";
-    // 3. Se o tempo for maior ou igual o dobro e menor do que o triplo, exibe "O prato queimou."
-    // 4. Se o tempo for maior ou igual ao triplo, exibe "Kabum!"
+    // Realiza os cálculos verificando o tempo padrão e as condições
+    
+    
+    
+    
     if (selecao != "" && tempoDefault != "") {
+        // 1. Se o tempo for menor que o tempoDefault, exibe a mensagem "Tempo insuficiente."  
         if (tempo < tempoDefault) {
             console.log(selecao + ": Tempo insuficiente.");
-        } else if (tempo >= tempoDefault && tempo < tempoDefault * 2 - 1) {
+        } 
+        // 2. Se o tempo for maior ou igual ao tempoDefault, mas menor que o dobro, exibe "Prato pronto, bom apetite!"
+        else if (tempo >= tempoDefault && tempo < tempoDefault * 2 - 1) {
             console.log(selecao + ": Prato pronto, bom apetite!");
-        } else if (tempo >= tempoDefault * 2 && tempo < tempoDefault * 3 - 1) {
+        } 
+        // 3. Se o tempo for maior ou igual o dobro do tempoDefault e menor do que o triplo do tempoDefault, exibe "O prato queimou."
+        else if (tempo >= tempoDefault * 2 && tempo < tempoDefault * 3 - 1) {
             console.log(selecao + ": O prato queimou.");
-        } else if (tempo >= tempoDefault * 3) {
+        } 
+        // 4. Se nenhuma das condições anteriores for atendida, consideramos que o tempo foi maior que o triplo do tempoDefault, exibindo "Kabum"
+        else {
             console.log(selecao + ": Kabum!");
         }
     }
 }
 
 // Testes de execução
+// Em cada bloco de teste abaixo, considera-se:
+// 1. Menor tempo padrão de preparo ( < tempoDefault)
+// 2. Tempo de preparo considerado normal ( >= tempoDefault e < tempoDefault * 2 - 1 )
+// 3. Tempo de preparo acima do normal, queimando o prato ( >= tempoDefault * 2 e < tempoDefault * 3 - 1 )
+// 4. Tempo de preparo muito acima do normal, explodindo ( >= tempoDefault * 3, mas na condicional 'else')
+// * Exceção ao último bloco, que exibe apenas um resultado de Opção inválida para evitar repetição
+
 // 1 - Pipoca, tempo padrão: 10 segundos
 microondas(1, 5);
 microondas(1, 12);
