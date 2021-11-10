@@ -1,0 +1,123 @@
+/* Importa as fontes Roboto e Mohave do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Mohave:wght@500&family=Roboto:wght@500&display=swap');
+
+/* Regras Globais */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* regras para tags */
+body {
+    
+    background-image: url("../img/bhte_fundo.jpg");
+    background-repeat: no-repeat;
+    background-position: middle;
+    background-size: cover;
+}
+
+a {
+    color: #FFF;
+}
+
+h1, h2 {
+    font-family: 'Mohave', sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+/* classes */
+.curiosidades {
+    background-color: rgba(255, 255, 255, 0.65);
+    border-radius: 10px;
+    margin: 10px 15px;
+    padding: 10px 15px;
+    width: 200px;
+    height: 250px;
+    text-align: center;
+}
+
+.heart {
+    color: red;
+}
+
+.icones {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+/* IDs */
+#header-container {
+    padding: 10px;
+    width: 100%;
+    height: 95px;
+    background-color: rgba(255, 255, 255, 0.65);
+    text-align: center;
+}
+
+#main-container {
+    padding: 50px;
+    width: 100%;
+}
+
+#video-bh {
+    margin: 20px;
+    text-align: center;
+}
+
+#container-curiosidades {
+    text-align: center;
+    width: 1200px;
+    height: 420px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.65);
+    border-radius: 10px;
+    font-size: 12px;
+    color: #333;
+}
+
+#cur1 {
+    position: relative;
+}
+
+#cur2 {
+    position: relative;
+    left: 220px;
+    top: -260px;
+}
+
+#cur3 {
+    position: relative;
+    left: 440px;
+    top: -520px;
+}
+
+#cur4 {
+    position: relative;
+    left: 660px;
+    top: -780px;
+}
+
+#cur5 {
+    position: relative;
+    left: 880px;
+    top: -1040px;
+}
+
+#footer-container {
+    margin-top: 40px;
+    padding: 40px;
+    text-align: center;
+    background-color: rgb(8, 8, 8);
+    color: #FFF;
+    font-size: 12px;
+}
