@@ -9,6 +9,7 @@
     padding: 20px;
     border: 5px rgb(0, 0, 0) solid;
     border-radius: 20px;
+    width: fit-content;
 }
 
 #dadospessoais {
@@ -33,9 +34,9 @@ div {
 }
 
 h1 {
-    margin: 20px;
+    margin: 20px 0 20px 60px;
     font-size: 30px;
-    text-align: center;
+    text-align: left;
 }
 
 button {
