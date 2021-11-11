@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Aula 13 - Mesa de Trabalho - Cadastro Playground</title>
+</head>
+<body>
+    
+    <h1><img src="img/pg.svg" alt="Playground"></h1>
+
+    <form action="/cadastrar">
+
+        <fieldset id="cadastro">
+
+            <legend>Cadastro</legend>
+
+            <fieldset id="dadospessoais">
+                
+                <legend>Dados Pessoais</legend>
+
+                <div class="div-forms">
+                    <label for="nome">Nome: </label>
+                    <input type="text" name="nome" id="nome" placeholder="Ex.: João" required>
+                </div>
+                
+                <div class="div-forms">
+                    <label for="sobrenome">Sobrenome: </label>
+                    <input type="text" name="sobrenome" id="sobrenome" placeholder="Ex.: de Deus"  required>
+                </div>
+
+                <div class="div-forms">
+                    <label for="email">E-mail: </label>
+                    <input type="email" name="email" id="email" placeholder="seu@email.com"  required>
+                </div>
+
+                <div class="div-forms">
+                    <label for="password">Senha: </label>
+                    <input type="password" name="password" id="password" placeholder="******"  required>
+                </div>
+
+                <div class="div-forms">
+                    <label for="password-confirm">Confirmar Senha: </label>
+                    <input type="password" name="password-confirm" id="password-confirm" placeholder="******"  required>
+                </div>
+
+            </fieldset>
+
+            <fieldset id="dadoscurso">
+                
+                <legend>Inscrição do Curso</legend>
+
+                <div class="div-forms">
+                    <label for="curso">Curso: </label>
+                    <select name="curso" id="curso"  required>
+                        <option value="1">Certified Tech Developer</option>
+                        <option value="2">Desenvolvimento Full Stack</option>
+                        <option value="1">Marketing Digital</option>
+                        <option value="1">Desenvolvimento Front-End</option>
+                        <option value="1">Desenvolvimento Back-End</option>
+                    </select>
+                </div>
+
+                <div class="div-forms">
+                    <label for="sobre-candidato">Sobre você:</label>
+                    <textarea name="sobre-candidato" id="sobre-candidato" placeholder="Conte-nos um pouco sobre você :)" cols="30" rows="20"  required></textarea>
+                </div>
+
+            </fieldset>
+            <div class="observacao">
+                <span>Atenção: Todos os campos do formulário são obrigatórios para a inscrição.</span>
+            </div>
+            <div class="buttons">
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+            </div>
+
+        </fieldset>
+
+
+
+    </form>
+
+</body>
+</html>
