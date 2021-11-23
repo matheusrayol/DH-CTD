@@ -14,26 +14,26 @@ function microondas(comida, tempo) {
         case 1:
             selecao = "Pipoca";
             tempoDefault = 10;
-            break;
-            case 2:
-                selecao = "Macarrão";
-                tempoDefault = 8;
-                break;
-                case 3:
-                    selecao = "Carne";
-                    tempoDefault = 15;
-                    break;
-                    case 4:
-                        selecao = "Feijão";
-                        tempoDefault = 12;
-                        break;
-                        case 5:
-                            selecao = "Brigadeiro";
-                            tempoDefault = 8;
-                            break;
-                            default:
-                                console.log("Opção inválida: " + comida);
-                                break;
+        break;
+        case 2:
+            selecao = "Macarrão";
+            tempoDefault = 8;
+        break;
+        case 3:
+            selecao = "Carne";
+            tempoDefault = 15;
+        break;
+        case 4:
+            selecao = "Feijão";
+            tempoDefault = 12;
+        break;
+        case 5:
+            selecao = "Brigadeiro";
+            tempoDefault = 8;
+        break;
+        default:
+            console.log("Opção inválida: " + comida);
+        break;
     }
 
     // Realiza os cálculos verificando o tempo padrão e as condições
