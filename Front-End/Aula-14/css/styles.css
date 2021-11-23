@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#cadastro {
+    margin: auto 50px;
+    padding: 20px;
+    border: 5px rgb(0, 0, 0) solid;
+    border-radius: 20px;
+    width: fit-content;
+}
+
+#dadospessoais {
+    border: 1px rgb(0, 0, 0) solid;
+    border-radius: 20px;
+}
+
+#dadoscurso {
+    border: 1px rgb(0, 0, 0) solid;
+    border-radius: 20px;
+}
+
+legend {
+    font-size: 20px;
+    color: rgb(231, 14, 14);
+    font-weight: bold;
+    padding: 10px;
+}
+
+div {
+    margin: 10px;
+}
+
+h1 {
+    margin: 20px 0 20px 60px;
+    font-size: 30px;
+    text-align: left;
+}
+
+button {
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.buttons {
+    text-align: right;
+}
+
+span {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+input, select, textarea {
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px grey solid;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+}
