@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav {
+    background-color: #FFF;
+    color: #333;
+    padding: 0;
+}
+
+.logo-header {
+    width: 100px;
+}
+
+#hero-container {
+    width: 640px;
+    height: 360px;
+    background-image: url('https://i0.wp.com/overplay.com.br/wp-content/uploads/2021/11/pokemon-overplay.webp?fit=1280%2C720&ssl=1');
+    background-size: cover;
+    margin: auto;
+}

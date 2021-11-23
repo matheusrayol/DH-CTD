@@ -1,0 +1,95 @@
+* { 
+    box-sizing: border-box;
+    font-family: 'Lucida Sans';
+}
+
+body {
+    height: 1500px;
+    padding: 50px;
+}
+
+div {
+    height: 50px;
+}
+
+input {
+    width: 250px;
+    height: 35px;
+    border: 0;
+    border-bottom: 2px #000000 solid;
+}
+
+input:hover {
+    border-bottom: 2px #3c2ff7 solid;
+}
+
+input:focus {
+    outline: none;
+}
+
+input:invalid {
+    background-color: rgba(255, 0, 0, 0.6);
+}
+
+button {
+    background-color: brown;
+    border: 0;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+button:disabled {
+    background-color: grey;
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    background-color: #3c2ff7;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+a:visited {
+    text-decoration: none;
+    color: grey;
+}
+
+a:active {
+    text-decoration: none;
+    background-color: #3c2ff7;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+p:target {
+    background-color: #3c2ff7;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+li:nth-child(2n) {
+    background-color: rgba(0, 255, 255, 0.363);
+}
+
+#par3::first-letter {
+    color: #3c2ff7;
+    font-size: 70px;
+    font-weight: bold;
+}
+}
+
+#par3::after {
+    content: "Atenção aqui!";
+    color: red;
+}
