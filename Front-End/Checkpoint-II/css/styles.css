@@ -1,0 +1,345 @@
+/* Fontes utilizadas no site: Roboto/Outfit */
+@import "https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800;900&family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap";
+
+/* Definições globais */
+*
+{
+	box-sizing:border-box;
+	font-family:Roboto,sans-serif;
+	margin:0;
+	padding-inline-start:0
+}
+
+/* Definições para tags */
+html {
+	scroll-behavior: smooth;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	font-family:Outfit,sans-serif;
+	font-weight:800
+}
+
+
+/* Container */
+.container .header-hero
+{
+	width:100%;
+	display:flex;
+	align-items:center;
+	flex-direction:column;
+	justify-content:space-evenly
+}
+
+.back-top {
+	position:fixed;
+	top: 93%;
+	left: 97%;
+}
+
+/* Banner inicial */
+.header-hero
+{
+	height:100vh;
+	background-image:url(../img/bhte_fundo.jpg);
+	background-position:center;
+	background-size:cover
+}
+
+.header-hero h1
+{
+	font-size:3.5rem;
+	color:#FFF;
+	text-align:center;
+	text-shadow:#313131 .1em .1em .2em
+}
+
+.button-conheca a
+{
+	padding:20px;
+	border:none;
+	border-radius:10px;
+	font-size:1.5rem;
+	text-decoration:none;
+	background-color:#FFF;
+	color:#333;
+	transition-property:background-color,color
+}
+
+.button-conheca a:hover
+{
+	background-color:rgb(101, 53, 233);;
+	color:#FFF;
+	transition-duration: 1s;
+    transform: ease
+}
+
+/* Barra de navegação */
+.navigation-bar
+{
+	padding:5px 20px;
+	background-color:#FFF;
+	display:flex;
+	gap: 20px;
+	align-items:center;
+	justify-content:space-evenly;
+	border-bottom:1px solid #CCC;
+	box-shadow:rgba(204, 204, 204, 0.308) 0 10px 5px;
+	flex-wrap: wrap;
+	position:sticky;
+	top:0
+}
+
+.logo
+{
+	background-image: url(../img/bhz_logo.png);
+	width: 160px;
+	height: 50px
+}
+
+.menu ul
+{
+	list-style:none;
+	display:flex;
+	text-transform:uppercase;
+	font-weight:700;
+}
+
+.menu ul li
+{
+	margin:0 10px;
+}
+
+.menu a
+{
+	text-decoration:none;
+	color:#333;
+	transition-property:color;
+	transition-duration:1s;
+	transform:ease
+}
+
+.menu a:hover {
+	color:rgb(101, 53, 233)
+}
+
+.icones
+{
+	width:30px;
+	margin-left:5px
+}
+
+
+/* Seção Sobre */
+.sobre
+{
+	width:100%;
+	height:100vh;
+	padding-top: 20px;
+	display:flex;
+	align-items:center;
+	flex-direction:row;
+	justify-content:space-evenly;
+	background-image:url(../img/grey-bg.jpg);
+	background-position:center;
+	background-size: cover;
+	gap: 20px;
+	flex-wrap: wrap;
+}
+
+.sobre-video iframe
+{
+	width:640px;
+	height:360px;
+	margin:0px auto;
+	border:0;
+	box-shadow:rgb(101, 53, 233) 10px 10px 0px
+}
+
+.sobre-resumo
+{
+    width: 30%;
+	padding: 3.5%;
+	background-color:#FFF;
+	border:1px solid rgb(101, 53, 233);
+	box-shadow:rgb(101, 53, 233) 10px 10px 0px
+}
+
+.sobre-resumo h1 {
+	margin-bottom: 20px;
+}
+
+/* Seção Curiosidades */
+.curiosidades-container
+{
+	width: 100%;
+	padding: 80px;
+	background-color:rgb(101, 53, 233);
+	color: #FFF;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-evenly;
+	flex-wrap:wrap;
+	gap:20px;
+}
+
+.cardCuriosidade
+{
+	width:30%;
+	padding: 30px;
+	background-color:#FFF;
+	color:#333;
+	border:0;
+	border-radius:10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardCuriosidade h2 {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.cur6 ol {
+	padding-left: 20px;
+}
+
+.spacer
+{
+	background-color:#FFF;
+	height:100vh
+}
+
+/* Seção Cadastro Turístico */
+.cadastro {
+	width:100%;
+	padding:80px;
+	background-color:#FFF;
+	color:#333;
+	display:flex;
+	justify-content:center;
+}
+
+.cadastro-container {
+	width: 800px;
+	padding: 20px;
+}
+
+.cadastro-container h1 {
+	margin-bottom: 20px;
+}
+
+.cadastro-container fieldset {
+	border: 2px rgb(101, 53, 233) solid;
+	padding: 30px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+.cadastro-container legend {
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: rgb(101, 53, 233);
+}
+
+.dados {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.dados label {
+	width: 15%;
+	font-weight: 700;
+}
+
+.dados input[type="text"],[type="email"],[type="date"] {
+	width: 85%;
+	height: 30px;
+	padding: 10px;
+	border-radius: 15px;
+	outline-color:rgb(0, 0, 0)d;
+	transition-property: height, outline-color;
+}
+
+.dados input[type="text"]:focus, [type="email"]:focus, [type="date"]:focus {
+	width: 85%;
+	height: 50px;
+	outline-color:rgb(101, 53, 233);
+	transition-duration: 1s;
+	transform: ease;
+}
+
+.dados select {
+	width: 85%;
+	height: 40px;
+	padding: 10px;
+	border-radius: 15px;
+	border:2px rgb(0, 0, 0) solid;
+}
+
+.dados-radio-checkbox {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 10px;
+	gap: 20px;
+}
+
+.dados-radio-checkbox label {
+	width: 15%;
+	font-weight: 700
+}
+
+.dados-radio-checkbox input[type="radio"],[type="checkbox"] {
+	width: 30px;
+	height: 30px
+}
+
+.buttons {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.buttons button {
+	padding: 20px;
+	font-size: 1.5rem;
+	border: 0;
+	border-radius: 10px;
+	background-color: #333;
+	color: #FFF;
+	transition-property:background-color,color
+}
+
+.buttons button:hover {
+	background-color: rgb(101, 53, 233);
+	color: #FFF;
+	transition-duration: 1s;
+    transform: ease
+}
+
+/* Rodapé */
+.footer-container {
+    padding: 40px;
+    text-align: center;
+    background-color: rgb(8, 8, 8);
+    color: #FFF;
+    font-size: 12px;
+}
+
+.heart {
+    color: red;
+}
+
+.footer-container a {
+	color: #FFF;
+	text-decoration: none;
+}
