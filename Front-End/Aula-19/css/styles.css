@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.gridContainer {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 80px 1fr;
+    grid-template-areas:
+    'header header'
+    'aside main'
+}
+
+.navegacao {
+    background-color: #000000;
+    grid-area: header;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.sidebar {
+    background-color: #333;
+    grid-area: aside;
+    padding: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar li {
+    color: #FFF;
+    padding: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.sidebar a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sidebar a:hover {
+    color: #FFF;
+    background-color:rgb(93, 194, 98);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sidebar span {
+    font-size: 10px;
+    padding: 5px;
+    background-color: rgb(93, 194, 98);
+    border-radius: 5px;
+}
+
+.conteudo {
+    background-color: rgb(230, 230, 230);
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-bar h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.post-meta {
+    display: flex;
+    height: 26px;
+    align-items: center;
+    justify-content: right;
+    font-size: 12px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.post-meta img {
+    border-radius: 50%;
+}
+
+.article-main {
+    margin-top: 5%;
+    width: 680px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFF;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.image-header {
+    width: 680px;
+    height: 384px;
+    background-image: url(../img/mi_a3_banner-1024x504.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.article-content p {
+    line-height: 1.5;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
