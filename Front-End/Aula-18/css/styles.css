@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.titleContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.containerCard {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+
+.itemCard {
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin: 1px;
+    width: 30%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.itemCard h3 {
+    align-self: center;
+    padding: 5px;
+}
+
+.itemCard p {
+    flex-grow: 1;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.itemCard button {
+    align-self: flex-end;
+}
+
+ul {
+    background-color: lightgrey;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 50px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+    transition-property: background-color, color;
+    transition-duration: 0.5s;
+    transform: ease;
+}
+
+li a:hover {
+    background-color: #333;
+    color: #FFF;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+main {
+    margin: 20px;
+}
