@@ -247,7 +247,7 @@ ul {
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
-@media(max-width:360px) {
+@media(min-width:0) and (max-width:360px) {
     .hero-title h1 {
         text-align: center;
         font-size: 2.2rem
@@ -331,7 +331,7 @@ ul {
     }
 }
 
-@media(max-width:480px) {
+@media(min-width:361px) and (max-width:480px) {
     .hero-title h1 {
         text-align: center;
         font-size: 2.2rem
@@ -422,13 +422,13 @@ ul {
     }
 }
 
-@media(max-width:560px) {
+@media(min-width:481px) and (max-width:600px) {
     .navegacao-menu {
         display: none
     }
 }
 
-@media(max-width:768px) {
+@media(min-width:600px) and (max-width:768px) {
     .hero-title h1 {
         text-align: center
     }
@@ -504,7 +504,7 @@ ul {
     }
 }
 
-@media(max-width:1280px) {
+@media(min-width:769px) {
     .hero-title h1 {
         font-size: 3rem;
         text-align: center
