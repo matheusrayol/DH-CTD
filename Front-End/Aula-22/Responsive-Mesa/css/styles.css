@@ -1,0 +1,265 @@
+/* Fontes utilizadas no site: Roboto/Outfit */
+@import "https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800;900&family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap";
+
+/* Normalize */
+@import "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css";
+
+/* Regras globais */
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6, ul
+{
+    font-family: Outfit, sans-serif;
+    font-weight: 800
+}
+
+/* Container */
+.container
+{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    flex-wrap:wrap
+}
+
+/* Hero Banner */
+.header-hero
+{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-evenly;
+    width:100%;
+    height:100vh;
+    background-image:url(../img/bhte_fundo.jpg);
+    background-size:cover;
+    background-position:center;
+    padding:1%
+}
+
+.hero-title h1
+{
+    font-weight:800;
+    color:#FFF;
+    text-shadow:rgb(101, 53, 233) 5px 5px 0px;
+    font-size:5rem
+}
+
+.hero-button a
+{
+    padding:20px;
+    background-color:#FFF;
+    color:rgb(101, 53, 233);
+    border-radius:20px;
+    box-shadow: rgb(101, 53, 233) 5px 5px 0px;
+    font-weight:600;
+    font-size:1.5rem;
+    text-decoration:none;
+    text-transform:uppercase;
+    transition-property:background-color, color, box-shadow
+}
+
+.hero-button a:hover
+{
+    transition-duration:1s;
+    transform:ease;
+    background-color:rgb(101, 53, 233);
+    color:#FFF;
+    box-shadow:#333 5px 5px 0px
+}
+
+/* Menu de Navegação */
+.navegacao
+{
+    width:100%;
+    height:70px;
+    padding:10px 20px;
+    display:flex;
+    gap:20px;
+    justify-content:space-evenly;
+    align-items:center;
+    position:sticky;
+    top:0;
+    flex-wrap:wrap;
+    background-color:#FFF;
+    border-bottom:1px solid #CCC;
+	box-shadow:rgba(204, 204, 204, 0.308) 0 10px 5px
+}
+
+.navegacao-logo
+{
+    width:160px;
+    height:50px
+}
+
+.navegacao-menu ul
+{
+    list-style:none;
+    display:flex;
+    text-transform:uppercase;
+    gap:15px;
+    font-size:1.1rem
+}
+
+.navegacao-menu a
+{
+    color:#333;
+    padding:5px 10px;
+    border-radius:10px;
+    background-color:#FFF;
+    text-decoration:none;
+    transition-property:color,background-color;
+    transition-duration:1s;
+    transform:ease
+}
+
+.navegacao-menu a:hover {
+	color:#fff;
+    background-color:rgb(101, 53, 233)
+}
+
+.navegacao-social
+{
+    display:flex;
+    gap:10px;
+    align-items:center
+}
+
+.navegacao-social img {
+    width:30px
+}
+
+
+/* Conteúdo */
+.conteudo
+{
+    width:100%
+}
+
+/* Conteúdo - Seção "Sobre" */
+.conteudo-sobre
+{
+    width:100%;
+    height:100vh;
+    padding-top:20px;
+    display:flex;
+    align-items:center;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    gap:20px;
+    background-image:url(../img/grey-bg.jpg);
+    background-position:center;
+    background-size:cover
+}
+
+.sobre-resumo {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:432px;
+    height:432px;
+    padding:2%;
+    background-color:#FFF;
+    border: 1px solid rgb(101, 53, 233);
+    box-shadow:rgb(101, 53, 233) 10px 10px 0px;
+    text-align: justify;
+    line-height: 1.6
+}
+
+.sobre-resumo h1
+{
+    margin-top:0;
+    margin-bottom:20px
+}
+
+.sobre-video iframe
+{
+	width:768px;
+	height:432px;
+	border:0;
+	box-shadow:rgb(101, 53, 233) 10px 10px 0px
+}
+
+/* Conteúdo - Seção "Curiosidades" */
+.conteudo-curiosidades
+{
+    width:100%;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    justify-content:space-evenly;
+    gap:20px;
+    background-color:rgb(101, 53, 233)
+
+}
+
+.conteudo-curiosidades-title h1 {
+    margin-top:70px;
+    font-weight:800;
+    color:#FFF;
+    font-size:4rem
+}
+
+.conteudo-curiosidades-content {
+    padding-left: 10%;
+    padding-right: 10%;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding-bottom:80px;
+}
+
+.cardCuriosidade
+{
+    width:300px;
+    height:450px;
+    border-radius:10px;
+    background-color:#FFF;
+    box-shadow: rgba(51, 51, 51, 0.31) 10px 10px 5px;
+}
+
+.cardCuriosidade img
+{
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+
+.cardCuriosidade-text
+{
+    padding:0 20px;
+    text-align:justify;
+    line-height: 1.5
+}
+
+/* Footer */
+.footer
+{
+    color:#333;
+    width:100%;
+    height:80px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.heart {
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
