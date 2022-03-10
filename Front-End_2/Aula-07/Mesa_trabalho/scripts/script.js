@@ -9,6 +9,7 @@ let body = document.querySelector('body');
 let h1 = document.querySelector('h1');
 let itemsList = document.querySelectorAll('.item');
 
+
 /* Função que é chamada pelo onChanged ao clicar no ToggleSwitch */
 function alteraTema() {
 
@@ -95,3 +96,23 @@ function buildCards() {
 }
 
 buildCards();
+
+/* Mesa 4 - Fábio Neres, André Almeida, Arnaldo Ramos, Gilvan, João Figueiredo, Matheus Ferreira */
+
+/* 
+    Passo a passo para resolver o desafio:
+    1 - Criar uma opção para a seleção do felino (prompt)
+    2 - Verificar, qual foi o felino escolhido
+    3 - Usuário informa uma url/img da internet
+    4 - Acessar o atributo 'src', alterar para a img da internet
+*/
+
+// Passo 1
+let selecao = prompt("Informe o felino para alteração: (0) Leão, (1) Leopardo, (2) Pantera, (3) Jaguar ou (4) Guepardo");
+//alert(selecao)
+// Passo 3
+let novaUrl = prompt("Informe a nova URL: ")
+
+let listaImagens = document.querySelectorAll("img");
+// Passo 4
+listaImagens[selecao].setAttribute("src", novaUrl)
