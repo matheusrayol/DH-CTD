@@ -47,69 +47,48 @@ let expressaoDois
 let telaCalculadora = document.getElementById('tela-calculadora-1');
 let telaCalculadoraAlt = document.getElementById('tela-calculadora-2');
 
-// Listener para os botões da calculadora
-botaoZero.addEventListener('click', function() {
-    telaCalculadora.value += 0;
-});
-botaoUm.addEventListener('click', function() {
-    telaCalculadora.value += 1;
-});
-botaoDois.addEventListener('click', function() {
-    telaCalculadora.value += 2;
-});
-botaoTres.addEventListener('click', function() {
-    telaCalculadora.value += 3;
-});
-botaoQuatro.addEventListener('click', function() {
-    telaCalculadora.value += 4;
-});
-botaoCinco.addEventListener('click', function() {
-    telaCalculadora.value += 5;
-});
-botaoSeis.addEventListener('click', function() {
-    telaCalculadora.value += 6;
-});
-botaoSete.addEventListener('click', function() {
-    telaCalculadora.value += 7;
-});
-botaoOito.addEventListener('click', function() {
-    telaCalculadora.value += 8;
-});
-botaoNove.addEventListener('click', function() {
-    telaCalculadora.value += 9;
-});
-botaoPonto.addEventListener('click', function() {
-    telaCalculadora.value += '.';
-});
-botaoLimpar.addEventListener('click', function() {
+// Eventos de clique da calculadora
+botaoZero.onclick = function() { telaCalculadora.value += 0 };
+botaoUm.onclick = function() { telaCalculadora.value += 1 };
+botaoDois.onclick = function() { telaCalculadora.value += 2 };
+botaoTres.onclick = function() { telaCalculadora.value += 3 }
+botaoQuatro.onclick = function() { telaCalculadora.value += 4 };
+botaoCinco.onclick = function() { telaCalculadora.value += 5 };
+botaoSeis.onclick = function() { telaCalculadora.value += 6 };
+botaoSete.onclick = function() { telaCalculadora.value += 7 };
+botaoOito.onclick = function() { telaCalculadora.value += 8 };
+botaoNove.onclick = function() { telaCalculadora.value += 9; };
+botaoPonto.onclick = function() { telaCalculadora.value += '.' };
+botaoLimpar.onclick = function() { 
     telaCalculadora.value = '';
     telaCalculadoraAlt.value = '';
-});
-botaoSomar.addEventListener('click', function() {
+    tipoOperacao = '';
+};
+botaoSomar.onclick = function() {
     expressaoUm = telaCalculadora.value;
     telaCalculadoraAlt.value = telaCalculadora.value;
     telaCalculadora.value = '';
     tipoOperacao = 'somar';
-});
-botaoSubtrair.addEventListener('click', function() {
+};
+botaoSubtrair.onclick = function() {
     expressaoUm = telaCalculadora.value;
     telaCalculadoraAlt.value = telaCalculadora.value;
     telaCalculadora.value = '';
     tipoOperacao = 'subtrair';
-});
-botaoMultiplicar.addEventListener('click', function() {
+};
+botaoMultiplicar.onclick = function() {
     expressaoUm = telaCalculadora.value;
     telaCalculadoraAlt.value = telaCalculadora.value;
     telaCalculadora.value = '';
     tipoOperacao = 'multiplicar';
-});
-botaoDividir.addEventListener('click', function() {
+};
+botaoDividir.onclick = function() {
     expressaoUm = telaCalculadora.value;
     telaCalculadoraAlt.value = telaCalculadora.value;
     telaCalculadora.value = '';
     tipoOperacao = 'dividir';
-});
-botaoIgual.addEventListener('click', function() {
+};
+botaoIgual.onclick = function() {
     expressaoDois = telaCalculadora.value;
     telaCalculadoraAlt.value = telaCalculadora.value;
     telaCalculadora.value = '';
@@ -126,4 +105,4 @@ botaoIgual.addEventListener('click', function() {
         telaCalculadoraAlt.value = `${expressaoUm} / ${expressaoDois}`;
         telaCalculadora.value = dividir(expressaoUm, expressaoDois);
     }
-});
+};

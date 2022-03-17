@@ -7,5 +7,9 @@
 // Contemplar o cenário onde se um dos dois parâmetros for zero, a função retornará zero.
 
 function multiplicar(valorA, valorB) {
-    return parseFloat(valorA) * parseFloat(valorB);
+    if (valorA == 0 || valorB == 0) {
+        return 0;
+    } else {
+        return parseFloat(valorA) / parseFloat(valorB);
+    }
 }

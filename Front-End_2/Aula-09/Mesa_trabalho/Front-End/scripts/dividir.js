@@ -7,7 +7,7 @@
 
 function dividir(valorA, valorB) {
     if (valorA == 0 || valorB == 0) {
-        return "Não se pode dividir por 0";
+        return 0;
     } else {
         return parseFloat(valorA) / parseFloat(valorB);
     }

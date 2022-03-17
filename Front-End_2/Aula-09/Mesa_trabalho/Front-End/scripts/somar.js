@@ -6,4 +6,4 @@
 
 function somar(valorA, valorB) {
     return parseFloat(valorA) + parseFloat(valorB);
-};
+}
