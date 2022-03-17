@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!-- Grupo 8: Matheus Rayol Ferreira, Maria Bonifácio, Moisés Andrade, Steffany Costa, André Luiz da Silva Almeida -->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/styles.css">
+        <title>Mesa de Trabalho - Aula 09/Aula 10 - Calculadora JS</title>
+    </head>
+    <body>
+
+        <form class="calculadora" name="calculadora">
+            <input class="valor" type="text" name="valor" readonly>
+            <span id="button-clear" class="digito duploh" onclick="document.calculadora.valor.value = ''">C</span>
+            <span id="button-divisao" class="digito" onclick="document.calculadora.valor.value += '/'">/</span>
+            <span id="button-multiplicacao" class="digito" onclick="document.calculadora.valor.value += '*'">*</span>
+            <span id="button-sete" class="digito" onclick="document.calculadora.valor.value += '7'">7</span>
+            <span id="button-oito" class="digito" onclick="document.calculadora.valor.value += '8'">8</span>
+            <span id="button-nove" class="digito" onclick="document.calculadora.valor.value += '9'">9</span>
+            <span id="button-subtracao" class="digito" onclick="document.calculadora.valor.value += '-'">-</span>
+            <span id="button-quatro" class="digito" onclick="document.calculadora.valor.value += '4'">4</span>
+            <span id="button-cinco" class="digito" onclick="document.calculadora.valor.value += '5'">5</span>
+            <span id="button-seis" class="digito" onclick="document.calculadora.valor.value += '6'">6</span>
+            <span id="button-adicao" class="digito duplov" onclick="document.calculadora.valor.value += '+'">+</span>
+            <span id="button-um" class="digito" onclick="document.calculadora.valor.value += '1'">1</span>
+            <span id="button-dois" class="digito" onclick="document.calculadora.valor.value += '2'">2</span>
+            <span id="button-tres" class="digito" onclick="document.calculadora.valor.value += '3'">3</span>
+            <span id="button-zero" class="digito duploh" onclick="document.calculadora.valor.value += '0'">0</span>
+            <span id="button-ponto" class="digito" onclick="document.calculadora.valor.value += '.'">.</span>
+            <span id="button-resultado" class="digito" onclick="document.calculadora.valor.value = eval(calculadora.valor.value)">=</span>
+        </form>
+
+        <footer>
+            <h2>Projeto Calculadora - Mesa de Trabalho</h2>
+            <h3>Aula 9 / Aula 10</h3>
+            <p>Grupo 8: Matheus Rayol Ferreira, Maria Bonifácio, Moisés Andrade, Steffany Costa, André Luiz da Silva Almeida</p>
+        </footer>
+
+        <script src="scripts/calculadora.js"></script>
+    </body>
+</html>

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #333;
+}
+
+.calculadora
+{
+    position: relative;
+    display: grid;
+}
+
+.calculadora .valor
+{
+    grid-column: span 4;
+    height: 100px;
+    text-align: right;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.calculadora span
+{
+    display: grid;
+    width: 60px;
+    height: 60px;
+    color: #FFFFFF;
+    background: #0C2835;
+    place-items: center;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.calculadora span:hover
+{
+  background: #0f3141;
+}
+
+.calculadora span:active
+{
+    background: #903bff;
+    color: #FFFFFF;
+}
+
+.calculadora span.duploh
+{
+    grid-column: span 2;
+    width: 120px;
+}
+
+.calculadora span.duplov
+{
+  grid-row: span 2;
+  height: 120px;
+}
+
+.calculadora span.resultado
+{
+    background: #03B1FF;
+}
+
+footer
+{
+    padding: 40px 20px;
+    color: #FFF;
+    font-size: .7rem;
+}

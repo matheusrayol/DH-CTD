@@ -1,4 +1,5 @@
 // Declaração de constantes
+const dateLoad = Date.now();
 const elementoPai = document.querySelector('form');
 const botaoSubmit = document.getElementById('submit');
 const tituloFormulario = document.querySelector('h2');
@@ -8,19 +9,6 @@ botaoSubmit.addEventListener('click', function(event) {
     event.preventDefault();
     alert('O botão Enviar foi clicado');
 })
-
-// Mostre um alerta na página quando a tela terminar de ser carregada.
-window.onload = function() {
-    const div = document.createElement('div');
-    const para = document.createElement('p');
-    const texto = document.createTextNode('Formulário totalmente carregado.');
-    div.className = "mb-3";
-    div.id = "mensagens";
-    div.appendChild(para);
-    para.appendChild(texto);
-    elementoPai.appendChild(div);
-}
-
 
 // Adicione uma cor a um texto quando o mouse ficar acima do mesmo e outra cor quando ele sair do mesmo.'
 
@@ -69,4 +57,18 @@ function contarKeyPressNome() {
 function contarKeyPressEmail() {
     var x = document.getElementById("email").value;
     document.getElementById("mensagens").innerHTML = `Você digitou o e-mail <b>${x}</b> (${x.length} caracteres)`;
+}
+
+const dateEnd = Date.now() - dateLoad;
+
+// Mostre um alerta na página quando a tela terminar de ser carregada.
+window.onload = function() {
+    const div = document.createElement('div');
+    const para = document.createElement('p');
+    const texto = document.createTextNode(`Formulário totalmente carregado (${dateEnd}ms).`);
+    div.className = "mb-3";
+    div.id = "mensagens";
+    div.appendChild(para);
+    para.appendChild(texto);
+    elementoPai.appendChild(div);
 }
