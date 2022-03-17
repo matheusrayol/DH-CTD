@@ -124,6 +124,6 @@ botaoIgual.addEventListener('click', function() {
         telaCalculadora.value = multiplicar(expressaoUm, expressaoDois);
     } else if (tipoOperacao === 'dividir') {
         telaCalculadoraAlt.value = `${expressaoUm} / ${expressaoDois}`;
-        telaCalculadora.value = multiplicar(expressaoUm, expressaoDois);
+        telaCalculadora.value = dividir(expressaoUm, expressaoDois);
     }
 });
