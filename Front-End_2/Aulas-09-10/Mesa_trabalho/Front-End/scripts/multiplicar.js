@@ -10,6 +10,6 @@ function multiplicar(valorA, valorB) {
     if (valorA == 0 || valorB == 0) {
         return 0;
     } else {
-        return parseFloat(valorA) / parseFloat(valorB);
+        return parseFloat(valorA) * parseFloat(valorB);
     }
 }
