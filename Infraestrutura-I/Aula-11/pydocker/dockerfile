@@ -1,0 +1,5 @@
+#Imagem
+FROM python:alpine3.14
+WORKDIR /app
+COPY pedrapapeltesoura.py /app
+ENTRYPOINT ["python", "pedrapapeltesoura.py"]
