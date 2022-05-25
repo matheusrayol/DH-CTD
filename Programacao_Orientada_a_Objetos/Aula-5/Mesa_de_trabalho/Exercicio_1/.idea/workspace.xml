@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9fe14ada-7857-4209-a1d9-e787e6379615" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../Aula-1/MeuPrimeiroProjeto/MeuPrimeiroProjeto.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-2/Exercício-Assíncrono/01-Estruturas_controle/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-2/Exercício-Assíncrono/02-String_e_Integer/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-2/Exercício-Assíncrono/03-Pratica_Integradora/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-2/Exercício-Assíncrono/04-Funcoes/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-3/Exercicio-Sincrono/Mesa-de-Trabalho.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-3/Mesa-Trabalho/Mesa-Trabalho.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercicio_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/digitalhouse/models/UsuarioJogo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Sincrona/MeuBanco/src/br/com/digitalhouse/meubanco/models/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Front-End_2/Aula-02/Sincrona/mesa_trabalho.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Front-End_2/Aula-02/Sincrona/mesa_trabalho.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Front-End_2/Aula-02/Sincrona/scripts/script_aula2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Front-End_2/Aula-02/Sincrona/scripts/script_aula2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Front-End_2/Aula-04/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Front-End_2/Aula-04/scripts/scripts_aula4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Front-End_2/Aula-04/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Front-End_2/Aula-05/Sincrona/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Front-End_2/Aula-05/Sincrona/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Infraestrutura-I/Aula-08/mesa_pedrapapeltesoura.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Infraestrutura-I/Aula-08/mesa_pedrapapeltesoura.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="29dPhhbD1KAPuYzFijaw9Lv86Il" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Matheus/OneDrive/Repositorios/CTD/DH-CTD/Programacao_Orientada_a_Objetos/Aula-5/Sincrona/MeuBanco",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.digitalhouse.Main" />
+      <module name="Exercicio_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.digitalhouse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9fe14ada-7857-4209-a1d9-e787e6379615" name="Changes" comment="" />
+      <created>1653440110022</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1653440110022</updated>
+      <workItem from="1653440111368" duration="155000" />
+      <workItem from="1653442145551" duration="167000" />
+      <workItem from="1653442321954" duration="942000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

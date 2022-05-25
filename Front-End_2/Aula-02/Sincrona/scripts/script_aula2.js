@@ -1,36 +1,45 @@
-// Formas de capturar e exibir informações do usuário
+///@@@ Formas de capturar e exibir informações do usuário
 
-// Exemplo 1 - Alert
-// let nomeUsuario = "Matheus";
-// alert("Usuário "+nomeUsuario+" logado com sucesso");
+//ALERT
+let nomeUsuario = "Marcos";
+alert("Usuário " + nomeUsuario + " logado com sucesso.");
 
-// Exemplo 2 - Confirm e Alert
-// let valorRecebidoConfirma = confirm("Você ddeseja finalizar a sessão?");
+//CONFIRM
+//Recebe o valor boleano e atribui a uma variável
+let valorRecebidoConfirm = confirm("Você deseja finalizar a sessão ?");
 
-// console.log(valorRecebidoConfirma);
+console.log(valorRecebidoConfirm);
 
-// if (valorRecebidoConfirma) {
-//     alert("Você finalizou a sessão");
-// } else {
-//     alert("Você não finalizou a sessão");
-// }
+//Verificando a variável boleana
+if (valorRecebidoConfirm) { //True/Verdadeiro
+    //Clicou no OK
+    alert("Você finalizou a sessão");
+} else { //False/Falso
+    //Clicou em Cancel
+    alert("Você  não finalizou a sessão");
+}
 
-// Exemplo 3 - Prompt e Alert
-// let valorRetornoPrompt = prompt("Informe o seu nome:");
-// alert(valorRetornoPrompt);
+//PROMPT
 
-// let numero1 = 10;
+//Variável do tipo numerica/inteira
+let numero1 = 10;
 
-// let valorRetornoPrompt = prompt("Informe um número inteiro");
+//Recbe um valor textual vindo do prompt
+let valorRetornoPrompt = prompt("Informe um número inteiro");
 
-// let valorConvertido = parseFloat(valorRetornoPrompt);
+///@@@ Formas de converter as informações recebidas + Função Math
 
-// let soma = numero1 + valorConvertido;
+//Converte valor textual para valor numérico (valores flutuantes/decimais)
+let valorConvertido = parseFloat(valorRetornoPrompt);
 
-// alert(soma)
+//Executa a soma dos valores e armazena em uma variável
+let soma = numero1 + valorConvertido;
 
+alert(soma);
 
-// Exemplo 4 - Math
-let numeroAleatorio = Math.floor(Math.random() * 3);
+//MATH
 
-console.log(numeroAleatorio)
+//Recebe um número aleatorio entre 1 e 3
+let numeroAleatorio = Math.random() * 3 + 1;
+
+console.log(numeroAleatorio);
