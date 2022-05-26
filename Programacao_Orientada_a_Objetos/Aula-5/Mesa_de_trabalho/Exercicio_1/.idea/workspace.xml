@@ -5,27 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fe14ada-7857-4209-a1d9-e787e6379615" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../Aula-1/MeuPrimeiroProjeto/MeuPrimeiroProjeto.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Aula-2/Exercício-Assíncrono/01-Estruturas_controle/untitled.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Aula-2/Exercício-Assíncrono/02-String_e_Integer/untitled.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Aula-2/Exercício-Assíncrono/03-Pratica_Integradora/untitled.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Aula-2/Exercício-Assíncrono/04-Funcoes/untitled.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Aula-3/Exercicio-Sincrono/Mesa-de-Trabalho.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Aula-3/Mesa-Trabalho/Mesa-Trabalho.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercicio_1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/digitalhouse/models/UsuarioJogo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sincrona/MeuBanco/src/br/com/digitalhouse/meubanco/models/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Front-End_2/Aula-02/Sincrona/mesa_trabalho.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Front-End_2/Aula-02/Sincrona/mesa_trabalho.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Front-End_2/Aula-02/Sincrona/scripts/script_aula2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Front-End_2/Aula-02/Sincrona/scripts/script_aula2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Front-End_2/Aula-04/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Front-End_2/Aula-04/scripts/scripts_aula4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Front-End_2/Aula-04/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Front-End_2/Aula-05/Sincrona/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Front-End_2/Aula-05/Sincrona/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Infraestrutura-I/Aula-08/mesa_pedrapapeltesoura.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Infraestrutura-I/Aula-08/mesa_pedrapapeltesoura.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-6/Exercicios/Exercicio-1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-6/Exercicios/Exercicio-1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-6/Exercicios/Exercicio-1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-6/Exercicios/Exercicio-1/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-6/Exercicios/Exercicio-1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-6/Exercicios/Exercicio-1/Exercicio-1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-6/Exercicios/Exercicio-1/src/br/com/digitalhouse/exercicio1/models/Impressora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-6/Mesa-Trabalho/AdocaoPet/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-6/Mesa-Trabalho/AdocaoPet/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-6/Mesa-Trabalho/AdocaoPet/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-6/Mesa-Trabalho/AdocaoPet/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-6/Mesa-Trabalho/AdocaoPet/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-6/Mesa-Trabalho/AdocaoPet/AdocaoPet.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-6/Mesa-Trabalho/AdocaoPet/out/production/AdocaoPet/br/com/digitalhouse/adocaopet/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-6/Mesa-Trabalho/AdocaoPet/out/production/AdocaoPet/br/com/digitalhouse/adocaopet/modules/AdocaoPet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-6/Mesa-Trabalho/AdocaoPet/src/br/com/digitalhouse/adocaopet/modules/AdocaoPet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +56,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Matheus/OneDrive/Repositorios/CTD/DH-CTD/Programacao_Orientada_a_Objetos/Aula-5/Sincrona/MeuBanco",
+    "last_opened_file_path": "C:/Users/Matheus/OneDrive/Repositorios/CTD/DH-CTD/Programacao_Orientada_a_Objetos/Aula-5/Mesa_de_trabalho/Exercicio_1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -101,6 +97,8 @@
       <workItem from="1653440111368" duration="155000" />
       <workItem from="1653442145551" duration="167000" />
       <workItem from="1653442321954" duration="942000" />
+      <workItem from="1653524227422" duration="647000" />
+      <workItem from="1653527810179" duration="1859000" />
     </task>
     <servers />
   </component>
