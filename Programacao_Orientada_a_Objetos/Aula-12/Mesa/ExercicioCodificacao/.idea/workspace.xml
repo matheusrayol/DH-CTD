@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="40c04d56-ed57-46bf-ad38-746f30757f32" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../Aula-10/Exercicios/AcademiaDH/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-10/Exercicios/AcademiaDH/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-10/Exercicios/AcademiaDH/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-10/Exercicios/AcademiaDH/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-10/Exercicios/AcademiaDH/AcademiaDH.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-10/Exercicios/AcademiaDH/src/br/com/academiadh/models/Associado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-10/Exercicios/AcademiaDH/src/br/com/academiadh/models/AssociadoHabilitado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-10/Mesa-Trabalho/Arcade/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-10/Mesa-Trabalho/Arcade/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-10/Mesa-Trabalho/Arcade/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-10/Mesa-Trabalho/Arcade/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-10/Mesa-Trabalho/Arcade/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-10/Mesa-Trabalho/Arcade/Arcade.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-10/Mesa-Trabalho/Arcade/src/br/com/mesatrabalho/arcade/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-10/Mesa-Trabalho/Arcade/src/br/com/mesatrabalho/arcade/models/Asteroide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-10/Mesa-Trabalho/Arcade/src/br/com/mesatrabalho/arcade/models/Nave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-10/Mesa-Trabalho/Arcade/src/br/com/mesatrabalho/arcade/models/Objeto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-11/Exercicios/Impressora/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-11/Exercicios/Impressora/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-11/Exercicios/Impressora/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-11/Exercicios/Impressora/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-11/Exercicios/Impressora/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-11/Exercicios/Impressora/src/main/java/com/matheusrayol/models/Impressora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-11/Exercicios/Impressora/src/main/java/com/matheusrayol/models/ImpressoraCannon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-11/Exercicios/Impressora/src/main/java/com/matheusrayol/models/ImpressoraEpson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-11/MesaTrabalho/MesaAnimais/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-11/MesaTrabalho/MesaAnimais/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-11/MesaTrabalho/MesaAnimais/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-11/MesaTrabalho/MesaAnimais/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-11/MesaTrabalho/MesaAnimais/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-11/MesaTrabalho/MesaAnimais/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-11/MesaTrabalho/MesaAnimais/src/main/java/com/mesadetrabalho/dh/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-11/MesaTrabalho/MesaAnimais/src/main/java/com/mesadetrabalho/dh/models/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Aula-11/MesaTrabalho/MesaAnimais/src/main/java/com/mesadetrabalho/dh/models/Cachorro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Exercicio/ExercicioGuiado/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Exercicio/ExercicioGuiado/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Exercicio/ExercicioGuiado/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Exercicio/ExercicioGuiado/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Exercicio/ExercicioGuiado/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Exercicio/ExercicioGuiado/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Exercicio/ExercicioGuiado/src/main/java/br/com/dh/exercicioguiado/models/Empresa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Exercicio/ExercicioGuiado/src/main/java/br/com/dh/exercicioguiado/models/Funcionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Exercicio/ExercicioGuiado/src/main/java/br/com/dh/exercicioguiado/models/Gerente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Exercicio/ExercicioGuiado/src/main/java/br/com/dh/exercicioguiado/models/Secretaria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Exercicio/ExercicioGuiado/src/main/java/br/com/dh/exercicioguiado/models/Vendedor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/digitalhouse/codificacao/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/digitalhouse/codificacao/models/Administrativo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/digitalhouse/codificacao/models/Assistente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/digitalhouse/codificacao/models/Funcionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/digitalhouse/codificacao/models/Tecnico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/com/digitalhouse/codificacao/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/com/digitalhouse/codificacao/models/Administrativo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/com/digitalhouse/codificacao/models/Assistente.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/com/digitalhouse/codificacao/models/Funcionario.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/com/digitalhouse/codificacao/models/Tecnico.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Aula-5/Mesa_de_trabalho/Exercicio_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Aula-5/Mesa_de_trabalho/Exercicio_1/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2AMdkmwX2AZ0AUwZD3l3bLNze9l" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.digitalhouse.codificacao.Main" />
+      <module name="ExercicioCodificacao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.digitalhouse.codificacao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="40c04d56-ed57-46bf-ad38-746f30757f32" name="Changes" comment="" />
+      <created>1654823536037</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654823536037</updated>
+      <workItem from="1654823537305" duration="1139000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
